@@ -13,7 +13,7 @@ export const handleAllBusiness = () => {
     content.innerHTML += `<h1>Active Businesses</h1>`;
 
 
-    content.innerHTML += `<h2>All Businesses</h2>`
+    content.innerHTML += `<h2 class='slice'>All Businesses</h2>`
 
 
     businesses.forEach(business => {
